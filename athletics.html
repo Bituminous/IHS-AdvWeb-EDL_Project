@@ -3,12 +3,30 @@
   <head>
     <meta charset="utf-8">
     <link href="athletics-style.css" rel="stylesheet">
-    <title></title>
+    <link href="mainstyle.css" rel="stylesheet">
+    <title>ATHLETICS</title>
   </head>
   <body>
-    <!-- Smash Bros Size font-->
+    <header>
+      <nav class="leftNav">
+        <ul>
+          <!-- These pages could change if needed -->
+          <li><a href="#">About</a></li>
+          <li><a href="#">Students</a></li>
+        </ul>
+      </nav>
+      <a id="ihsLink" href="index.html">
+        <img id="ihsBanner" src="Home Page images/ihs-header3.png">
+      </a>
+      <nav class="rightNav">
+        <ul>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="athletics.html">Athletics</a></li>
+        </ul>
+      </nav>
+    </header>
     <h1 id="bannerHead">ATHLETICS</h1>
-    <div class="SeasonalSlide">
+    <div class="SeasonalSlide" id="fallSlide">
       <!-- Colored tones for each season: Fall-Orange Winter-Light Blue Spring-Green Summer-Yellow -->
       <div class="Fall">
         <div class="opacity-layer">
@@ -18,38 +36,110 @@
         </div>
         <div class="season-lower" id="fall-lower">
           <div class="sport" id="b-Cross-Country">
-            Boys Cross Country
+            <a href="b-Cross-Country.html">Boys Cross Country</a>
           </div>
           <div class="sport" id="g-Cross-Country">
-            Girls Cross Country
+            <a href="g-Cross-Country.html">Girls Cross Country</a>
           </div>
           <div class="sport" id="Football">
-            Football
+            <a href="Football.html">Football</a>
           </div>
           <div class="sport" id="g-Golf">
-            Girls Golf
+            <a href="g-Golf.html">Girls Golf</a>
           </div>
           <div class="sport" id="g-Tennis">
-            Girls Tennis
+            <a href="g-Tennis.html">Girls Tennis</a>
           </div>
           <div class="sport" id="g-Volleyball">
-            Girls Volleyball
+            <a href="g-Volleyball.html">Girls Volleyball</a>
           </div>
           <div class="sport" id="b-Water-Polo">
-            Boys Water Polo
+            <a href="b-Water-Polo.html">Boys Water Polo</a>
           </div>
           <div class="sport" id="Cheer">
-            Cheer
+            <a href="Cheer.html">Cheer</a>
           </div>
       </div>
       </div>
-      <div class="Winter">
-      </div>
-      <div class="Spring">
-      </div>
-      <div class="Summer">
-      </div>
     </div>
+    <div class="SeasonalSlide" id="winterSlide">
+        <div class="Winter">
+          <div class="opacity-layer">
+          </div>
+          <div class="season-upper">
+            <h1>WINTER</h1>
+          </div>
+          <div class="season-lower" id="winter-lower">
+            <div class="sport" id="b-Basketball">
+              <a href="b-Basketball.html">Boys Basketball</a>
+            </div>
+            <div class="sport" id="g-Basketball">
+              <a href="g-Basketball.html">Girls Basketball</a>
+            </div>
+            <div class="sport" id="b-Soccer">
+              <a href="b-Soccer">Boys Soccer</a>
+            </div>
+            <div class="sport" id="g-Soccer">
+              <a href="g-Soccer">Girls Soccer</a>
+            </div>
+            <div class="sport" id="g-Water-Polo">
+              <a href="g-Water-Polo">Girls Water Polo</a>
+            </div>
+            <div class="sport" id="Wrestling">
+              <a href="Wrestling.html">Wrestling</a>
+            </div>
+        </div>
+        </div>
+      </div>
+    <div class="SeasonalSlide" id="springSlide">
+        <div class="Spring">
+          <div class="opacity-layer">
+          </div>
+          <div class="season-upper">
+            <h1>SPRING</h1>
+          </div>
+          <div class="season-lower" id="spring-lower">
+            <div class="sport" id="Baseball">
+              <a href="Baseball.html">Baseball</a>
+            </div>
+            <div class="sport" id="b-Golf">
+              <a href="b-Golf.html">Boys Golf</a>
+            </div>
+            <div class="sport" id="b-Lacrosse">
+              <a href="b-Lacrosse.html">Boys Lacrosse</a>
+            </div>
+            <div class="sport" id="g-Lacrosse">
+              <a href="g-Lacrosse.html">Girls Lacrosse</a>
+            </div>
+            <div class="sport" id="Softball">
+              <a href="Softball.html">Softball</a>
+            </div>
+            <div class="sport" id="g-Swim">
+              <a href="g-Swim.html">Girls Swim</a>
+            </div>
+            <div class="sport" id="b-Swim">
+              <a href="b-Swim.html">Boys Swim</a>
+            </div>
+            <div class="sport" id="b-Tennis">
+              <a href="b-Tennis.html">Boys Tennis</a>
+            </div>
+            <div class="sport" id="Track">
+              <a href="Track.html">Track</a>
+            </div>
+            <div class="sport" id="b-Volleyball">
+              <a href="b-Volleyball.html">Boys Volleyball</a>
+            </div>
+            <div class="sport" id="Cheer">
+              <a href="Cheer.html">Cheer</a>
+            </div>
+        </div>
+        </div>
+      </div>
+    <div class="SeasonalSlide" id="summerSlide">
+      <div class="Summer">
+
+      </div>
+      </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="athletics-script.js" charset="utf-8"></script>
   </body>
