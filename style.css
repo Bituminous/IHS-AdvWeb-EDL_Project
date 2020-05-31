@@ -7,3 +7,19 @@ body {
   position: relative;
   top: -10px;
 }
+.values {
+  background-color: #194119;
+  color: white;
+  font-size: 45px;
+  padding: 25px 50px 25px 50px;
+  position: relative;
+  top: -20px;
+}
+.values li {
+  text-decoration: none;
+  list-style: none;
+}
+.values ul {
+  display: flex;
+  justify-content: space-around;
+}
